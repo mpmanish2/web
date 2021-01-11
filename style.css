@@ -1,0 +1,176 @@
+body{
+  font-family: "Montserrat" sans-serif;
+}
+#title{
+  background-color: #79a3b1;
+  color: #fff;
+  padding: 1% 10% 2% 10%;
+}
+.fluid-container{
+  padding: 3% 10% 10% 10%;
+}
+
+
+.navbar{
+  background-color: #79a3b1;
+  font-style: normal;
+  font-family: Ubuntu;
+
+}
+
+.navbar-nav{
+  margin-left: auto;
+    padding-bottom: 0;
+}
+
+.navbar-brand{
+  margin-left: 4rem;
+  padding:0 2rem 0 0;
+font-weight: bolder;
+  font-family:"Ubuntu" ;
+}
+.nav-item{
+font-size: 1.2rem;
+  padding: 0 02px;
+}
+
+
+.bb{
+margin-top: 5rem;
+
+}
+.frontbtn{
+  font-family: "Montserrat";
+  margin: 1rem;
+}
+
+
+
+h1{
+
+  text-transform: capitalize;
+  font-family: "Montserrat" sans-serif;
+  font-size: 4rem;
+  line-height: 2;
+  font-weight: 600;
+}
+
+h2{
+  font-family: "Montserrat-Bold" sans-serif ;
+  font-size: 1.5rem;
+}
+
+h3{
+  font-family: "Montserrat-Bold"sans-serif;
+}
+p{
+  color: grey;
+}
+
+
+.title{
+border-radius: 17px;
+margin: 3rem 0 0 0;
+transform: rotate(20deg);
+position: absolute;
+}
+
+/* features */
+
+#Featuress{
+  padding: 5% 15% 2%;
+  background-color: #fff;
+position: relative;
+z-index: 1;
+}
+
+.fbox{
+  line-height: 2;
+  text-align: center;
+}
+
+.uv{
+  color: #ff7b54;
+  margin-bottom:1rem;
+}
+.uv:hover{
+  color:#ff5722 ;
+}
+
+/* testomonial */
+
+#test{
+
+
+  text-align: center;
+  background-color: #ff7b54;
+  color: #fff;
+  line-height: 3;
+}
+.carousel-item{
+  padding: 5%  15% 8%;
+  margin-top: 8%;
+}
+
+.car{
+  width:14%;
+  height:14%;
+  border-radius: 100%;
+  padding: 22px 10px;
+  margin: 32px;
+}
+
+.carouse-item{
+  height: 100%;
+  width: 100%;
+}
+
+/* Picing section */
+#Pricing{
+  background: #e6b566;
+  padding: 3rem 15%;
+}
+.card{
+  width: auto;
+  margin: 10px;
+  align-self: center;
+  align-items:  stretch;
+  text-align: center;
+
+}
+
+}
+.Price{
+  font-family:"Montserrat" sans-serif;
+
+}
+/* media */
+@media (max-width:767px) {
+  #title{text-align: center;}
+  .title{
+    position: static;
+    transform: rotate(0);
+
+  }
+
+}
+/* ITC section */
+#itc{
+  background-color: #ff7b54;
+  padding: 1% 10% 2% 10%;
+  text-align: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+.multibtn{
+  margin: 1rem ;
+}
+.head{
+  padding: 2rem 1rem;
+}
+/* Footer */
+#footer{
+  padding: 1% 15% 0;
+  text-align: center;
+}
