@@ -119,6 +119,13 @@ z-index: 1;
   padding: 22px 10px;
   margin: 32px;
 }
+@media (max-width:950px) {
+  .car{
+    width:30%;
+    height:20%;
+  }
+
+}
 
 .carouse-item{
   height: 100%;
